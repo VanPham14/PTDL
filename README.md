@@ -13,9 +13,9 @@ tính khái quát của kết luận.
 
 Notebook trả lời ba câu hỏi nghiên cứu (RQ):
 
-- **RQ1 — Lựa chọn đặc trưng:** So sánh chọn feature bằng **SHAP** với phương pháp truyền
+- **RQ1  Lựa chọn đặc trưng:** So sánh chọn feature bằng **SHAP** với phương pháp truyền
   thống **IV/WOE** (Information Value).
-- **RQ2 & RQ3 — Hiệu quả & độ tin cậy:** Xây dựng **Efficiency Frontier** (AUC so với thời
+- **RQ2 & RQ3  Hiệu quả & độ tin cậy:** Xây dựng **Efficiency Frontier** (AUC so với thời
   gian huấn luyện) và ước lượng **khoảng tin cậy Bootstrap** cho các chỉ số.
 - **Xuyên suốt:** Đánh giá **Stacking ensemble** và **hiệu chỉnh xác suất** (Calibration:
   Isotonic / Platt) dưới lăng kính chi phí sai lệch (ví dụ tỉ lệ chi phí 3:1, 5:1, 10:1, 15:1).
@@ -84,17 +84,7 @@ pip install -r requirements.txt
    jupyter notebook 3_PhamThiThuVan.ipynb
    ```
 
-3. Kết quả (bảng tổng hợp, hình vẽ) được lưu trong thư mục `outputs/`, một số bảng được
-   xuất ra file Excel (`.xlsx`).
 
-## Kết quả đầu ra
 
-- Thư mục `outputs/` chứa hình và bảng tổng hợp.
-- Các bảng kết quả chính xuất ra `.xlsx` (ví dụ bảng ablation, bảng chi phí kỳ vọng).
-- Chỉ số được tổng hợp thành các bảng so sánh giữa mô hình raw, đã calibrate và stacking
-  trên cả ba dataset.
 
----
 
-*README này mô tả nội dung của `3_PhamThiThuVan.ipynb`. Cập nhật lại nếu bạn thay đổi cấu
-trúc notebook hoặc nguồn dữ liệu.*
